@@ -1,0 +1,32 @@
+
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?
+La compatibilidad de un lenguaje de programación con un sistema operativo depende del diseño del lenguaje, la disponibilidad 
+de compiladores o intérpretes, el entorno de ejecución requerido, el soporte de la comunidad y las restricciones de licencia. 
+Estos factores determinan si el lenguaje puede aprovechar las características del sistema operativo y si existen las herramientas 
+necesarias para compilar y ejecutar programas en ese sistema.
+
+¿Qué tipo de máquina virtual es virtualBox?.
+
+VirtualBox es un software de virtualización que actúa como una máquina virtual de tipo 2. 
+Se instala como una aplicación en un sistema operativo host y permite crear y ejecutar múltiples máquinas virtuales dentro de él. 
+Estas máquinas virtuales son sistemas operativos completos y autónomos que se ejecutan en una ventana de VirtualBox. 
+Utiliza un hipervisor de tipo 2, que es un software instalado en el sistema operativo host y se encarga de gestionar y controlar las
+máquinas virtuales. En resumen, VirtualBox es una herramienta que permite la virtualización de sistemas operativos en un entorno 
+de computadoras personales.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las
+demás? ¿por qué?
+
+Cuando se trata de máquinas virtuales, si una de ellas se rompe o experimenta un problema, generalmente no afectará directamente 
+a las demás. Esto se debe a que cada máquina virtual se ejecuta de manera aislada y encapsulada dentro de su propio entorno virtual. 
+Cada máquina virtual tiene su propio sistema operativo, aplicaciones y recursos asignados, y opera como una entidad independiente.
+
+Sin embargo, es importante tener en cuenta que existen ciertos escenarios en los que un problema en una máquina virtual puede 
+tener efectos indirectos en otras. Por ejemplo, si una máquina virtual experimenta un alto consumo de recursos, como una gran carga
+ de CPU o una utilización excesiva de memoria, esto podría afectar el rendimiento general del sistema y potencialmente ralentizar otras 
+máquinas virtuales en el entorno compartido.
+
+En resumen, aunque en condiciones normales una máquina virtual rota o con problemas no debería afectar directamente a las demás, 
+existen situaciones en las que los efectos pueden ser indirectos, especialmente si hay un consumo desproporcionado de recursos o se
+ comparten recursos críticos.
