@@ -1,4 +1,24 @@
-Mi direccion es la siguiente
+Mis direcciones son las siguientes
 
+Ip de la VM: inet:10.0.2.15
 
-inet:10.0.2.15
+Mad de la VM: direcciónHW 08:00:27:dd:df:9e
+
+ubuntu-cli@ubuntu-cli:~$ ifconfig -a
+enp0s3    Link encap:Ethernet  direcciónHW 08:00:27:dd:df:9e  
+          Direc. inet:10.0.2.15  Difus.:10.0.2.255  Másc:255.255.255.0
+          Dirección inet6: fe80::a00:27ff:fedd:df9e/64 Alcance:Enlace
+          ACTIVO DIFUSIÓN FUNCIONANDO MULTICAST  MTU:1500  Métrica:1
+          Paquetes RX:33139 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:22071 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1000 
+          Bytes RX:33013724 (33.0 MB)  TX bytes:5413317 (5.4 MB)
+
+lo        Link encap:Bucle local  
+          Direc. inet:127.0.0.1  Másc:255.0.0.0
+          Dirección inet6: ::1/128 Alcance:Anfitrión
+          ACTIVO BUCLE FUNCIONANDO  MTU:65536  Métrica:1
+          Paquetes RX:2 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:2 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1 
+          Bytes RX:98 (98.0 B)  TX bytes:98 (98.0 B)
