@@ -1,6 +1,7 @@
+
 Ventajas de Telnet:
 
-Simplicidad en la implementación y uso. Se uede conectar facilmente
+Simplicidad en la implementación y uso. Se puede conectar facilmente
 y ermite controlar la maquina virtual desde una locacion remota
 
 Amplia compatibilidad con dispositivos y sistemas operativos.
@@ -9,3 +10,42 @@ Desventajas de Telnet:
 
 Falta de seguridad al no ofrecer cifrado ni autenticación segura.
 Vulnerabilidad a ataques de interceptación y suplantación de identidad.
+
+
+Ventajas de SSH:
+
+Seguridad: SSH ofrece encriptación de extremo a extremo y autenticación
+basada en clave, brindando alta seguridad para la transmisión de datos
+y protegiendo contra accesos no autorizados.
+
+Acceso remoto: Permite administrar de forma segura sistemas remotos desde
+cualquier ubicación con conexión a Internet.
+
+Desventajas de SSH:
+
+Configuración inicial compleja: Requiere conocimientos técnicos para 
+configurar correctamente SSH y establecer las reglas de seguridad.
+
+Rendimiento: Puede haber una leve degradación del rendimiento debido a 
+la encriptación y desencriptación de datos transmitidos, especialmente 
+en conexiones de red más lentas
+
+
+Diferencias entre Telnet y SSH:
+
+Seguridad: Telnet transmite los datos en texto plano, lo que significa 
+que la información enviada a través de Telnet no está encriptada y es 
+vulnerable a ser interceptada. En cambio, SSH utiliza encriptación de 
+extremo a extremo, asegurando la confidencialidad de los datos transmitidos.
+
+Autenticación: Telnet no ofrece un sólido sistema de autenticación.
+Solo requiere un nombre de usuario y contraseña para acceder a un sistema 
+remoto, lo que facilita los ataques de fuerza bruta. SSH, por otro lado, 
+admite autenticación basada en clave, lo que brinda una capa 
+adicional de seguridad y dificulta el acceso no autorizado.
+
+Funcionalidad adicional: SSH proporciona funciones adicionales que Telnet 
+no ofrece, como la capacidad de reenviar puertos (port forwarding) para 
+acceder a servicios en sistemas remotos, transferencia de archivos 
+segura (SFTP) y ejecución remota de comandos. Estas características hacen 
+que SSH sea más versátil y útil en entornos de administración remota.
