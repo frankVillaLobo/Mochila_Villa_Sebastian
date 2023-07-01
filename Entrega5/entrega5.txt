@@ -1,0 +1,11 @@
+Ventajas de Telnet:
+
+Simplicidad en la implementación y uso. Se uede conectar facilmente
+y ermite controlar la maquina virtual desde una locacion remota
+
+Amplia compatibilidad con dispositivos y sistemas operativos.
+
+Desventajas de Telnet:
+
+Falta de seguridad al no ofrecer cifrado ni autenticación segura.
+Vulnerabilidad a ataques de interceptación y suplantación de identidad.
